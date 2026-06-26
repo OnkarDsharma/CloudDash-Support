@@ -1,8 +1,5 @@
 # CloudDash Multi-Agent Customer Support System
 
-> AI Engineering Intern Assessment — Vikara.ai  
-> Built by Onkareshwar Sharma, 3rd Year CSE, IIIT Naya Raipur
-
 A production-architecture prototype of a multi-agent customer support system for **CloudDash**, a fictional B2B SaaS cloud infrastructure monitoring platform. The system routes customer conversations through specialized AI agents, grounds every response in a knowledge base with citations, handles cross-domain handovers, and escalates unresolvable cases to human operators — all through a REST API and a live Streamlit UI.
 
 ---
@@ -484,5 +481,3 @@ Deterministic, fast, zero latency, no API cost, and 100% testable. Accurate enou
 Routes.py should only know HTTP. Agent logic should only know agents. The orchestrator is the seam between them. This means you can swap the entire routing strategy (keyword → LLM → rule engine) without touching the API layer.
 
 ---
-
-*Built for the Vikara.ai AI Engineering Intern assessment, June 2026.*
