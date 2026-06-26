@@ -1,0 +1,9 @@
+{
+  "id": "KB-001",
+  "title": "Supported Cloud Providers",
+  "category": "faq",
+  "tags": ["cloud providers", "aws", "gcp", "azure", "integrations"],
+  "content": "CloudDash supports infrastructure monitoring integrations for AWS, Google Cloud Platform, and Microsoft Azure. Supported AWS services include CloudWatch metrics, CloudTrail audit events, EC2, RDS, EKS, Lambda, and billing exports. Supported GCP services include Cloud Monitoring metrics, Cloud Logging, Compute Engine, GKE, Cloud SQL, and billing exports. Supported Azure services include Azure Monitor metrics, Activity Log, Virtual Machines, AKS, Azure SQL, and cost management exports. CloudDash does not currently provide a documented Datadog integration in the customer support knowledge base. If a customer asks about an unsupported provider or third-party monitoring platform, acknowledge that the knowledge base does not confirm support and offer escalation to the product team or a feature request.",
+  "last_updated": "2026-04-15",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

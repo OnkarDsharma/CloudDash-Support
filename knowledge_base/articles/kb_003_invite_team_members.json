@@ -1,0 +1,9 @@
+{
+  "id": "KB-003",
+  "title": "Inviting Team Members",
+  "category": "account_access",
+  "tags": ["team", "invite", "users", "workspace"],
+  "content": "Workspace admins can invite team members from Settings > Members > Invite member. Enter the user's email address, choose a role, and select Send invite. Invitations expire after 7 days. If an invitation expires, resend it from the Members page. Enterprise workspaces using SSO may require the user to be assigned to the CloudDash application in the identity provider before the invitation can be accepted.",
+  "last_updated": "2026-03-28",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

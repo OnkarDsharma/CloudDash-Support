@@ -1,0 +1,9 @@
+{
+  "id": "KB-014",
+  "title": "Starter, Pro, and Enterprise Plan Comparison",
+  "category": "billing_policy",
+  "tags": ["plans", "pricing", "starter", "pro", "enterprise", "upgrade"],
+  "content": "CloudDash offers Starter, Pro, and Enterprise plans. Starter includes basic dashboards, standard cloud integrations, and limited API access. Pro includes advanced alerting, alert webhooks, longer audit logs, higher API limits, and multi-condition alert policies. Enterprise includes SSO, custom API limits, custom roles, longer audit retention, priority support, and contract-based terms. Exact pricing is not included in the support knowledge base. If a customer asks for a custom quote or contract terms, route the request to Billing or Sales support.",
+  "last_updated": "2026-04-16",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

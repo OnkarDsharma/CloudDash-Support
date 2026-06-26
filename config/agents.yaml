@@ -1,0 +1,14 @@
+agents:
+  triage:
+    name: Triage Agent
+    description: Classifies customer intent and routes to the right specialist.
+  technical:
+    name: Technical Support Agent
+    description: Resolves technical CloudDash support issues using retrieved KB content.
+  billing:
+    name: Billing Agent
+    description: Handles billing, subscription, invoice, and payment questions.
+  escalation:
+    name: Escalation Agent
+    description: Packages unresolved issues for simulated human support.
+

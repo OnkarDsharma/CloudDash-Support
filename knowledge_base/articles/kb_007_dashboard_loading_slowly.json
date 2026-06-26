@@ -1,0 +1,9 @@
+{
+  "id": "KB-007",
+  "title": "Dashboard Loading Slowly",
+  "category": "troubleshooting",
+  "tags": ["dashboard", "performance", "loading", "widgets"],
+  "content": "Large dashboards can load slowly when they contain many high-cardinality widgets, long time ranges, or cross-cloud queries. Reduce the time range, remove unused widgets, and split unrelated infrastructure views into separate dashboards. If only one widget is slow, edit the widget and check whether it queries a high-cardinality label such as instance ID, pod name, or request path. Enterprise customers can contact support to review query performance for shared executive dashboards.",
+  "last_updated": "2026-04-08",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

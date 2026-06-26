@@ -1,0 +1,9 @@
+{
+  "id": "KB-010",
+  "title": "Webhook Configuration",
+  "category": "api_documentation",
+  "tags": ["webhook", "alerts", "integration", "signature"],
+  "content": "Webhooks can be configured from Settings > Developer > Webhooks. Add the destination URL, choose event types, and copy the signing secret. CloudDash signs webhook requests with the X-CloudDash-Signature header. The receiver should verify the signature and return a 2xx response within 10 seconds. Failed deliveries are retried for up to 24 hours. Alert event webhooks are available on Pro and Enterprise plans.",
+  "last_updated": "2026-04-09",
+  "applies_to": ["Pro", "Enterprise"]
+}

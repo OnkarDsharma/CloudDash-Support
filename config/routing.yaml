@@ -1,0 +1,23 @@
+routes:
+  technical:
+    intents:
+      - technical_issue
+      - integration_issue
+      - api_question
+      - alerting_issue
+      - dashboard_issue
+      - sso_issue
+  billing:
+    intents:
+      - billing_question
+      - invoice_dispute
+      - payment_failure
+      - plan_change
+      - refund_request
+  escalation:
+    intents:
+      - unresolved
+      - unsupported
+      - manager_request
+      - high_urgency
+

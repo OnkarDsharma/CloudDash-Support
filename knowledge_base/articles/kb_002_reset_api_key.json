@@ -1,0 +1,9 @@
+{
+  "id": "KB-002",
+  "title": "Resetting a CloudDash API Key",
+  "category": "faq",
+  "tags": ["api key", "security", "authentication", "reset"],
+  "content": "Workspace admins can reset a CloudDash API key from Settings > Developer > API Keys. Choose the affected key, select Rotate key, copy the new secret, and update any services that call the CloudDash API. The old secret stops working immediately after rotation. If an API key may have been exposed publicly, rotate it immediately and review audit logs for unusual API usage. CloudDash support cannot view or recover full API key secrets.",
+  "last_updated": "2026-04-12",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

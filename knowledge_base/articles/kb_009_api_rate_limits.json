@@ -1,0 +1,9 @@
+{
+  "id": "KB-009",
+  "title": "API Rate Limits",
+  "category": "api_documentation",
+  "tags": ["api", "rate limit", "429", "headers"],
+  "content": "CloudDash API rate limits are enforced per workspace. Starter workspaces allow 60 requests per minute, Pro workspaces allow 600 requests per minute, and Enterprise workspaces allow custom limits agreed in the contract. When a client exceeds its limit, the API returns HTTP 429 with Retry-After and X-RateLimit-Reset headers. Clients should use exponential backoff and avoid retry storms. If a Pro customer consistently needs higher limits, recommend Enterprise plan review.",
+  "last_updated": "2026-04-14",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

@@ -1,0 +1,9 @@
+{
+  "id": "KB-015",
+  "title": "Upgrade and Downgrade Rules",
+  "category": "billing_policy",
+  "tags": ["upgrade", "downgrade", "plan change", "billing"],
+  "content": "Plan upgrades take effect immediately after confirmation by a Billing Admin. If a customer upgrades from Pro to Enterprise, Enterprise-only features such as SSO and custom roles become available after the workspace plan refreshes. Downgrades are scheduled for the end of the current billing period to avoid removing features unexpectedly. Only Billing Admins can request plan changes. If a plan change is connected to a technical blocker, resolve or document the technical issue before completing the billing handover.",
+  "last_updated": "2026-04-16",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

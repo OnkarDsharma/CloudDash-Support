@@ -1,0 +1,9 @@
+{
+  "id": "KB-013",
+  "title": "Using Audit Logs",
+  "category": "account_access",
+  "tags": ["audit logs", "security", "activity", "account"],
+  "content": "Audit logs show important workspace events such as user invitations, role changes, API key rotation, integration updates, SSO changes, and billing admin actions. Admins can view audit logs from Settings > Security > Audit Logs. Pro workspaces retain audit logs for 90 days. Enterprise workspaces retain audit logs for 365 days and can export them through the API.",
+  "last_updated": "2026-03-30",
+  "applies_to": ["Pro", "Enterprise"]
+}

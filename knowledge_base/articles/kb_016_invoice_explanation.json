@@ -1,0 +1,9 @@
+{
+  "id": "KB-016",
+  "title": "Understanding CloudDash Invoices",
+  "category": "billing_policy",
+  "tags": ["invoice", "billing", "charges", "usage"],
+  "content": "CloudDash invoices include the subscription plan, billing period, workspace identifier, taxes when applicable, and any prorated adjustments from plan changes. Usage-based line items may appear for contracted Enterprise customers. Billing Admins can download invoices from Settings > Billing > Invoices. If a customer disputes a line item, collect the invoice number, billing period, workspace ID, and the specific line item before deciding whether to resolve through policy guidance or escalate.",
+  "last_updated": "2026-04-11",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

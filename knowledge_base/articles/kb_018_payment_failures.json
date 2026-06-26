@@ -1,0 +1,9 @@
+{
+  "id": "KB-018",
+  "title": "Payment Failure Troubleshooting",
+  "category": "billing_policy",
+  "tags": ["payment failure", "card", "billing", "subscription"],
+  "content": "When a payment fails, CloudDash notifies Billing Admins by email and displays a banner in Settings > Billing. Customers should confirm that the card has not expired, the billing address matches the card issuer records, and the bank has not blocked the transaction. Billing Admins can update payment details from Settings > Billing > Payment method. CloudDash retries failed payments automatically for 7 days before account features may be limited.",
+  "last_updated": "2026-04-07",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

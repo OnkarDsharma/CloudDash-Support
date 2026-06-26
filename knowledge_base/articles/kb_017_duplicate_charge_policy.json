@@ -1,0 +1,9 @@
+{
+  "id": "KB-017",
+  "title": "Duplicate Charge and Refund Escalation Policy",
+  "category": "billing_policy",
+  "tags": ["duplicate charge", "refund", "manager", "billing dispute", "escalation"],
+  "content": "If a customer reports a duplicate charge, ask for the invoice number, billing period, last four digits of the payment method if available, and workspace ID. Billing support can explain invoice details and collect dispute information, but immediate refunds and manager requests must be escalated to a human billing specialist. Mark duplicate charge cases as high priority when the customer says they were charged twice, requests an immediate refund, or asks to speak to a manager. Do not promise that a refund has been approved unless a human billing specialist confirms it.",
+  "last_updated": "2026-04-19",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

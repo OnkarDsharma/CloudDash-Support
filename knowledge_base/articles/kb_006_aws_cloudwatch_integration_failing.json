@@ -1,0 +1,9 @@
+{
+  "id": "KB-006",
+  "title": "AWS CloudWatch Integration Failing",
+  "category": "troubleshooting",
+  "tags": ["aws", "cloudwatch", "integration", "iam", "setup"],
+  "content": "When AWS CloudWatch integration setup fails, confirm the AWS account ID, region list, and IAM role ARN are correct. The IAM trust policy must allow CloudDash's external ID shown in the integration setup screen. The role must allow CloudWatch metric reads, tag reads, and STS identity verification. If the integration previously worked, check whether the IAM role was renamed, the external ID was changed, or a service control policy started blocking CloudWatch APIs. After updating permissions, run the CloudDash connection test and refresh the integration.",
+  "last_updated": "2026-04-18",
+  "applies_to": ["Pro", "Enterprise"]
+}

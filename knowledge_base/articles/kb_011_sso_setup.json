@@ -1,0 +1,9 @@
+{
+  "id": "KB-011",
+  "title": "Setting Up SSO",
+  "category": "account_access",
+  "tags": ["sso", "saml", "identity provider", "enterprise", "login"],
+  "content": "SSO is available for Enterprise workspaces. To configure SSO, open Settings > Security > SSO, choose SAML 2.0, and copy the CloudDash ACS URL and Entity ID into the identity provider. Then paste the identity provider metadata URL or XML into CloudDash and run Test connection. If users cannot sign in, confirm the NameID format is email address, the user's email matches their CloudDash member email, and the user is assigned to the CloudDash app in the identity provider. SSO enforcement should only be enabled after a successful test login by an admin.",
+  "last_updated": "2026-04-17",
+  "applies_to": ["Enterprise"]
+}

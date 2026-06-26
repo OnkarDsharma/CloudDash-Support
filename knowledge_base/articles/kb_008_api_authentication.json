@@ -1,0 +1,9 @@
+{
+  "id": "KB-008",
+  "title": "CloudDash API Authentication",
+  "category": "api_documentation",
+  "tags": ["api", "authentication", "bearer token", "headers"],
+  "content": "CloudDash API requests use bearer token authentication. Send the API key in the Authorization header as Bearer <token>. Do not send API keys in query strings. Example curl request: curl -H \"Authorization: Bearer $CLOUDDASH_API_KEY\" https://api.clouddash.example/v1/monitors. API keys are workspace-scoped and inherit the permissions selected when the key is created. Rotate keys regularly and immediately after suspected exposure.",
+  "last_updated": "2026-04-14",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

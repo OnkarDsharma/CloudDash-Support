@@ -1,0 +1,9 @@
+{
+  "id": "KB-012",
+  "title": "RBAC Roles and Permissions",
+  "category": "account_access",
+  "tags": ["rbac", "roles", "permissions", "access"],
+  "content": "CloudDash includes Admin, Editor, Viewer, and Billing Admin roles. Admins can manage integrations, alerts, users, and security settings. Editors can create and edit dashboards, monitors, and alert policies. Viewers can read dashboards and alert history but cannot change configuration. Billing Admins can view invoices and manage plan changes but cannot change monitoring configuration. Enterprise workspaces can request custom roles through support.",
+  "last_updated": "2026-04-05",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}

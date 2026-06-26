@@ -1,0 +1,9 @@
+{
+  "id": "KB-004",
+  "title": "Configuring Alert Thresholds",
+  "category": "troubleshooting",
+  "tags": ["alerts", "thresholds", "configuration", "notification"],
+  "content": "Alert thresholds are configured from Alerts > Policies. Select an existing policy or create a new one, choose the monitored resource, metric, comparison operator, threshold value, evaluation window, and notification channel. For noisy alerts, increase the evaluation window or add a minimum data point requirement. For alerts that fire too late, reduce the evaluation window and verify that the metric is arriving at the expected interval. Pro and Enterprise workspaces can define multi-condition alert policies.",
+  "last_updated": "2026-04-10",
+  "applies_to": ["Starter", "Pro", "Enterprise"]
+}
