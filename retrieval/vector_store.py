@@ -1,10 +1,11 @@
 import json
 from dataclasses import asdict, dataclass
+from os import path
 from pathlib import Path
 from typing import Any
 
 from retrieval.chunking import ArticleChunk
-from retrieval.embeddings_semantic import cosine_similarity, embed as semantic_embed
+from retrieval.embeddings import HashingEmbeddingProvider, cosine_similarity
 
 
 @dataclass(frozen=True)
@@ -21,20 +22,24 @@ class SearchResult:
 
 class JsonVectorStore:
     def __init__(
-        self,
+       self,
         path: str | Path = ".data/vector_store/index.json",
+        embedding_provider: HashingEmbeddingProvider | None = None,
     ) -> None:
         self.path = Path(path)
+        self.embedding_provider = embedding_provider or HashingEmbeddingProvider()
         self.records: list[VectorRecord] = []
+
 
 
     def build(self, chunks: list[ArticleChunk]) -> None:
         self.records = [
             VectorRecord(
                 chunk=chunk,
-                embedding=semantic_embed(
+                embedding=self.embedding_provider.embed(
                     f"{chunk.title} {' '.join(chunk.tags)} {chunk.text}"
                 ),
+
             )
             for chunk in chunks
         ]
@@ -67,7 +72,7 @@ class JsonVectorStore:
         category: str | None = None,
         min_score: float = 0.0,
     ) -> list[SearchResult]:
-        query_embedding = semantic_embed(query)
+        query_embedding = self.embedding_provider.embed(query)
         results: list[SearchResult] = []
 
         for record in self.records:
