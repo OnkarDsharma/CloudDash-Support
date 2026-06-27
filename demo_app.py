@@ -11,7 +11,7 @@ Make sure the FastAPI server is running first:
 import requests
 import streamlit as st
 
-API_BASE = "http://127.0.0.1:8000"
+API_BASE = "https://clouddash-support-9sd8.onrender.com"
 
 # ---------------------------------------------------------------------------
 # Page config
