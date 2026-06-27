@@ -1,3 +1,5 @@
+from email.mime import text
+
 from agents.base import BaseAgent
 from state.models import AgentName, AgentResponse, ConversationState
 
@@ -31,9 +33,12 @@ def classify_intent(
 ) -> tuple[str, AgentName]:
     text = message.lower()
 
-    # Hard overrides first — these always win regardless of score
     if any(term in text for term in ["manager", "immediate refund", "charged twice", "duplicate"]):
         return "billing_escalation", AgentName.BILLING
+
+    if any(term in text for term in ["escalate", "speak to a human", "speak to someone", "real person"]):
+        return "escalation_requested", AgentName.ESCALATION
+
 
     # AFTER
     if any(term in text for term in ["datadog", "grafana", "splunk", "newrelic", "unsupported", "feature request"]):

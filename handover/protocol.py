@@ -33,7 +33,7 @@ logger = logging.getLogger(__name__)
 # Each entry: (primary_intent_keywords, secondary_intent_keywords, primary_agent, secondary_agent)
 _MULTI_INTENT_PATTERNS: list[tuple[list[str], list[str], AgentName, AgentName]] = [
     (
-        ["sso", "login", "access", "integration", "alert", "aws", "cloudwatch", "credential", "webhook", "dashboard"],
+        ["sso", "login", "integration", "alert", "aws", "cloudwatch", "credential", "webhook", "dashboard"],
         ["upgrade", "downgrade" , "billing", "invoice", "payment"],
         AgentName.TECHNICAL,
         AgentName.BILLING,
